@@ -1,5 +1,5 @@
 body {
-    background-image: url("john.jpeg");
+    background-image: url("cazzz.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     /* background-color: black; */
@@ -43,14 +43,7 @@ body {
     -webkit-transform:translate(0,-50%);
             transform:translate(0,-50%);   
   }
-  #arrow {
-    position: absolute;
-    width: 100px;
-    right: 69%;
-    top: 46%;
-    transform: rotate(180deg);
-  }
-  #x {
+  #profilePic {
   position: absolute;
   top: 30%;
   left: 5%;

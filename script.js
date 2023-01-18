@@ -88,7 +88,7 @@ var padding = {top:20, right:40, bottom:0, left:0},
                     } else {
                         oldpick.push(picked)
                     }            
-                    rotation += 270 - Math.round(ps/2);
+                    rotation += 90 - Math.round(ps/2);
                     vis.transition()
                     /* DURACAO DO TEMPO DELA RODANDO */
                         .duration(7500)
@@ -115,9 +115,9 @@ var padding = {top:20, right:40, bottom:0, left:0},
                 }
                 //make arrow
                 svg.append("g")
-                    .attr("transform", "translate(" + (w + 50) + "," + ((h/2)+padding.top) + ")")
-                    .append("path")
-                    /* .attr("d", "M-" + (r*.20) + ",0L0," + (r*.1) + "L0,-" + (r*.1) + "Z") */
+                .attr("transform", "translate(" + (w + 200) + "," + ((h/2)+padding.top) + ")")
+                .append("path")
+                .attr("d", "M-" + (r*.80) + ",0L0," + (r*.4) + "L0,-" + (r*.4) + "Z")
                     .style({"fill":"red"});
                 //draw spin circle
                 /* container.append("circle")
