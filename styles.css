@@ -1,51 +1,51 @@
 body {
-    background-image: url("john.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* background-color: black; */
-  }
-  text{
-    font-family:Helvetica, Arial, sans-serif;
-    font-size:16px;
-    pointer-events:none;
-  }
-  #chart{
-    display: flex;
-    justify-content: center;
-  }
-  #question{
+  background-image: url("footpyhton.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: black; */
+}
+text{
+  font-family:Helvetica, Arial, sans-serif;
+  font-size:16px;
+  pointer-events:none;
+}
+#chart{
+  display: flex;
+  justify-content: center;
+}
+#question{
+position: absolute;
+top: 25%;
+left: 7.5%;
+}
+#question h1{
+  font-size: 32px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   position: absolute;
-  top: 60%;
-  left: 7%;
-  }
-  #question h1{
-    font-size: 32px;
-    font-weight: bold;
-    color: white;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    position: absolute;
-    padding: 0;
-    margin: 0;
-    -webkit-transform:translate(0,-50%);
-            transform:translate(0,-50%); 
-  }
-  #daily{
-  margin-top: 25px;
-  margin-bottom: -55px;
-    display: flex;
-    justify-content: center;
-  }
-  #daily h1{
-    font-size: 50px;
-    font-weight: bold;
-    color: white;;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    -webkit-transform:translate(0,-50%);
-            transform:translate(0,-50%);   
-  }
-  #profilePic {
-  position: absolute;
-  top: 30%;
-  left: 5%;
-  width: 200px;
-  }
+  padding: 0;
+  margin: 0;
+  -webkit-transform:translate(0,-50%);
+          transform:translate(0,-50%); 
+}
+#daily{
+margin-top: 25px;
+margin-bottom: -55px;
+  display: flex;
+  justify-content: center;
+}
+#daily h1{
+  font-size: 50px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-transform:translate(0,-50%);
+          transform:translate(0,-50%);   
+}
+#profilePic {
+position: absolute;
+top: 30%;
+left: 5%;
+width: 200px;
+}
