@@ -1,8 +1,8 @@
 body {
-  background-image: url("footpyhton.jpeg");
+  background-image: url("/assets/john.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-color: black; */
+  background-color: rgb(251, 252, 246);
 }
 text{
   font-family:Helvetica, Arial, sans-serif;
@@ -15,13 +15,14 @@ text{
 }
 #question{
 position: absolute;
-top: 25%;
-left: 7.5%;
+top: 35%;
+left: 9%;
+
 }
 #question h1{
   font-size: 32px;
   font-weight: bold;
-  color: rgb(0, 0, 0);
+  color: white;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   position: absolute;
   padding: 0;
@@ -38,14 +39,15 @@ margin-bottom: -55px;
 #daily h1{
   font-size: 50px;
   font-weight: bold;
-  color: rgb(0, 0, 0);;
+  color: white;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   -webkit-transform:translate(0,-50%);
           transform:translate(0,-50%);   
 }
 #profilePic {
 position: absolute;
-top: 30%;
-left: 5%;
+top: 40%;
+left: 7%;
 width: 200px;
+border-radius: 15px;
 }
